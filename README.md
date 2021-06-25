@@ -9,7 +9,7 @@ Required libraries:
 4. libSVM (with pip python package manager, run "pip install libsvm libsvm-official" in a terminal)
 
 Steps to run:
-1. Download the project and unzip it.
+1. Download the project and unzip it (total size ~43MB).
 2. On Windows, double click "run.bat"
 3. On other platforms, open a terminal and move to the directory "src", then enter "python main.py"
 
