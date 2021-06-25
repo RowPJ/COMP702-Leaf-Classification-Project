@@ -13,4 +13,5 @@ Steps to run:
 
 Notes:
 * GPU acceleration can be disabled in autoencoder.py by setting useCudaP to False near the top of the file. It won't cause problems to leave it enabled though.
-* The leafsnap dataset folder in this repository is not the full dataset, it is only the images used by this project to save download time. The full dataset can be used instead of the dataset in this repository, but make sure the directory structures match or the program will crash.
+* The leafsnap dataset folder in this repository is not the full dataset, it is only the images used by this project to save download time. The full dataset can be used instead of the dataset in this repository, but make sure the directory structures match or the program will crash. The size of this reduced dataset is only 45MB for field images of 14 plant species.
+* src/autoencoder_model.pt and src/trained-model-rbf are the pre-trained auto-encoder and classifier models. Their sizes are 4MB and 2MB respectively, so they shouldn't be a problem to download.
