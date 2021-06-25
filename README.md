@@ -10,3 +10,7 @@ Steps to run:
 1. Download the project and unzip it.
 2. On Windows, double click "run.bat"
 3. On other platforms, open a terminal and move to the directory "src", then enter "python main.py"
+
+Notes:
+* GPU acceleration can be disabled in autoencoder.py by setting useCudaP to False near the top of the file. It won't cause problems to leave it enabled though.
+* The leafsnap dataset folder in this repository is not the full dataset, it is only the images used by this project to save download time. The full dataset can be used instead of the dataset in this repository, but make sure the directory structures match or the program will crash.
