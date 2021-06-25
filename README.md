@@ -1,6 +1,5 @@
 # COMP702 Leaf Classification Project
 
-Student Name: Rowan Pellow-Jarman
 Student Number: 218013055
 
 Required libraries:
