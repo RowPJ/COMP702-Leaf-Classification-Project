@@ -1,5 +1,8 @@
 # COMP702 Leaf Classification Project
 
+Student Name: Rowan Pellow-Jarman
+Student Number: 218013055
+
 Required libraries:
 1. Pytorch (check https://pytorch.org/ to easily build a terminal command to install the latest version. Make sure to install with CUDA support selected if you want to use NVIDIA GPU-accelerated auto-encoder training. Auto-encoder training can still be done on the CPU, but will be a bit slower.)
 2. Numpy (with pip python package manager, run "pip install numpy" in a terminal)
