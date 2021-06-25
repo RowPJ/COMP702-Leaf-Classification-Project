@@ -262,7 +262,7 @@ def loadAutoencoder(path=defaultModelName):
     """Returns a new autoencoder with parameters initialized from a file."""
     ae = Autoencoder(encoderDimensions, decoderDimensions)  # make new autoencoder
     ae.to(device)               # maybe move to gpu
-    ae.load_state_dict(torch.load(path))  # load trained parameters from file
+    ae.load_state_dict(torch.load(path, map_location=torch.device(device)))  # load trained parameters from file
     ae.eval()                   # necessary to prevent inconsistency compared to pre-serialization
     return ae
 
